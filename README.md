@@ -1,11 +1,30 @@
 # Click2Highlight
- 
-## Throw this into Console in your browser, double-click words to toggle highlight.
 
-Doing research on a company? Reading a questionable article with spurious claims? Highlight for easy reference. 
+Click2Highlight is a simple browser extension that lets you toggle highlights on double-clicked words for easy reference while reading. It's perfect for research, fact-checking, or just highlighting important points. 
 
-Refreshing the page will wipe your highlights. This snippet works by adding style to the rendered version of the page. Your highlights are not saved. 
+## Features
 
-Find faults or finagle fun features? Fix or fork. 
+- Double-click any word or phrase to toggle a yellow highlight.
+- Quickly remove highlights with a second double-click.
+- All highlights are temporary and will reset upon page refresh.
+  
+## Use Cases
 
-![Demo Image](demo.png)
+- Doing research on a company or topic? Highlight important points for easy reference.
+- Reading an article with questionable or spurious claims? Use highlights to keep track of what needs fact-checking.
+- Highlights do not persist across refreshes, making it ideal for temporary in-session reference.
+
+## How It Works
+
+Click2Highlight adds inline styling to the web page as you view it. The highlights are not saved permanently, meaning refreshing the page will wipe any existing highlights. This allows for a quick, non-permanent way to mark important content.
+
+## Installation
+
+- Manually upload to either Chrome or Firefox by renaming the manifest file to 'manifest.json'
+- Chrome web store
+- Firefox web store
+
+## Demo Images 
+
+![Demo Image](demo1.png)
+![Demo Image](demo2.png)
